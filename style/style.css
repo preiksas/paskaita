@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    font-family: courier;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+}
+
+section.landing-page {
+    height: 100vh;
+    background-image: url('../img/01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    max-width: 900px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+section.landing-page .logo {
+    float: left;
+    margin-left: 10%;
+}
+
+section.landing-page nav {
+    float: right;
+}
+
+section.landing-page li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section.landing-page .fa-bars {
+    float: right;
+    display: none;
+    margin-right: 10%;
+}
+
+section.info h2 {
+    margin-top: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+section.info p {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 40px auto;
+    color: #555;
+    width: 80%;
+}
+
+section.bike-row1 {
+    font-size: 0;
+}
+
+section.bike-row1 .left-side {
+    width: 66.66%;
+    display: inline-block;
+}
+
+section.bike-row1 .right-side {
+    width: 33.33%;
+    display: inline-block;
+}
+
+section.bike-row1 .right-side img {
+    width: 100%;
+}
+
+section.bike-row1 .right-side h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+section.bike-row1 .right-side p {
+    font-size: 16px;
+    line-height: 22px;
+
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
